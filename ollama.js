@@ -12,7 +12,7 @@ const { URL } = require('url');
 dotenv.config();
 
 // Configuration constants
-const API_KEYS = parseEnvArray('API_KEYS', ['EDIT_HERE_YOUR_APIKEY']);
+const API_KEYS = parseEnvArray('sk_n2dp3OcJ-w0htHaFdpQw7Fhfg6kyVc85QhbhSarWLGI', ['sk_n2dp3OcJ-w0htHaFdpQw7Fhfg6kyVc85QhbhSarWLGI']);
 const PORT = 14444;
 const API_URL = 'https://api.novita.ai/v3/openai';
 const MODEL = "meta-llama/llama-3.2-1b-instruct"
